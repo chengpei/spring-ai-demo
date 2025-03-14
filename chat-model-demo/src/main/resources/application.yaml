@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-ai-demos
+  ai:
+    openai:
+      base-url: https://api.deepseek.com
+      api-key: sk-a1710d2c5b7a4f0d9a4f8227d8a4c89c
+      chat:
+        options:
+          model: deepseek-chat
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: deepseek-r1:1.5b

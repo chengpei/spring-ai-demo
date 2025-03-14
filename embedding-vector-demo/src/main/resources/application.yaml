@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: spring-ai-demos
+  ai:
+    openai:
+      api-key: 0
+      chat:
+        base-url: https://api.deepseek.com
+        api-key: sk-a1710d2c5b7a4f0d9a4f8227d8a4c89c
+        options:
+          model: deepseek-chat
+      embedding:
+        base-url: http://localhost:11434
+        options:
+          model: nomic-embed-text:latest
+#    ollama:
+#      base-url: http://localhost:11434
+#      chat:
+#        model: deepseek-r1:1.5b
+#      embedding:
+#        options:
+#          model: nomic-embed-text:latest
+    vectorstore:
+      milvus:
+        client:
+          host: 192.168.3.96
+          port: 19530
+          username: root
+          password: milvus
+        embeddingDimension: 768
+        indexType: IVF_FLAT
+        metricType: COSINE
+        embedding-field-name: embedding
+        collection-name: vector_store
+        database-name: default
+        initialize-schema: true
