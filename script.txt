@@ -1,6 +1,0 @@
-# 安装milvus， https://milvus.io/docs/zh/install_standalone-docker.md
-curl -sfL https://raw.githubusercontent.com/milvus-io/milvus/master/scripts/standalone_embed.sh -o standalone_embed.sh
-bash standalone_embed.sh start
-
-# 安装attu，https://github.com/zilliztech/attu
-docker run -p 8000:3000 -e HOST_URL=http://192.168.3.96:8000 -e MILVUS_URL=192.168.3.96:19530 zilliz/attu:latest
