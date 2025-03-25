@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-ai-demos
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.3.96:3306/flowable?useSSL=false&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
+    username: root
+    password: 123456
