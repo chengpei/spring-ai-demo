@@ -2,7 +2,7 @@
 GET http://localhost:8080/flowable/start?name=zhangsan&days=5&reason=不想上班
 
 ### 查询我的任务
-GET http://localhost:8080/flowable/queryTask?name=jingli&processId=09295702-0877-11f0-a7fe-bafcde6eec46
+GET http://localhost:8080/flowable/queryTask?name=manager&processId=09295702-0877-11f0-a7fe-bafcde6eec46
 
 ### 任务审核 - 通过
 GET http://localhost:8080/flowable/completeTask?taskId=7d7a3749-0876-11f0-a354-bafcde6eec46&outcome=通过

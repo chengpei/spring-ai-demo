@@ -21,7 +21,7 @@
     <sequenceFlow id="sid-2092478E-D446-457F-BC8E-26B5F2FCEBA8" sourceRef="startEvent1" targetRef="sid-663FEB40-05E4-4A89-8990-7A94971F2581"></sequenceFlow>
     <exclusiveGateway id="sid-E32B6A92-0DC6-429E-8BCF-57C93AC4B9EA"></exclusiveGateway>
     <sequenceFlow id="sid-F4F14144-865D-46B2-A932-EE79DD4CE4F2" sourceRef="sid-663FEB40-05E4-4A89-8990-7A94971F2581" targetRef="sid-E32B6A92-0DC6-429E-8BCF-57C93AC4B9EA"></sequenceFlow>
-    <userTask id="sid-EB7FA35A-DF7C-4B23-A544-66D93F42B24E" name="部门经理审核" flowable:assignee="jingli" flowable:formFieldValidation="true">
+    <userTask id="sid-EB7FA35A-DF7C-4B23-A544-66D93F42B24E" name="部门经理审核" flowable:assignee="manager" flowable:formFieldValidation="true">
       <extensionElements>
         <modeler:initiator-can-complete xmlns:modeler="http://flowable.org/modeler"><![CDATA[false]]></modeler:initiator-can-complete>
       </extensionElements>

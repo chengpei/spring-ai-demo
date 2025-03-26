@@ -7,3 +7,7 @@
 [Spring Boot整合DeepSeek实现AI对话](https://www.chengpei.top/archives/spring-boot-deepseek)
 
 [DeepSeek介绍及使用ollama本地化部署DeepSeek-R1大模型](https://www.chengpei.top/archives/deepseek-r1-ollama)
+
+新增了工作流引擎Flowable介绍及SpringBoot整合使用实例相关的Demo，具体相关内容可以查看以下博文：
+
+[工作流引擎Flowable介绍及SpringBoot整合使用实例](https://chengpei.top/archives/flowable-spring-boot-starter)
