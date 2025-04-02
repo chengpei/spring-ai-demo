@@ -19,6 +19,7 @@
         <module>embedding-vector-demo</module>
         <module>picture-search-demo</module>
         <module>flowable-demo</module>
+        <module>rabbitmq-delayed-message-demo</module>
     </modules>
     <properties>
         <java.version>17</java.version>
